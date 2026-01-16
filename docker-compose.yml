@@ -1,0 +1,27 @@
+services:
+  urlshortener:
+    image: ${DOCKER_REGISTRY-}urlshortener
+    build:
+      context: UrlShortener
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__AppDbConnectionString=Server=db-urls;Database=ShortUrlDb;User Id=sa;Password=Short@10;TrustServerCertificate=True;
+    ports:
+      - "5000:8080"
+    depends_on:
+      - db-urls
+
+  db-urls:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-container
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Short@10
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlvolume:/var/opt/mssql 
+
+volumes:
+  sqlvolume:
