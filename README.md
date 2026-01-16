@@ -30,7 +30,7 @@ A API expõe os seguintes métodos para manipulação das URLs:
 * **Corpo da Requisição:**
     ```json
     {
-      "urlReceived": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "url_original": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     }
     ```
 * **Retorno:** A URL completa encurtada (ex: `http://localhost:5000/api/Url/Ab3d9`).
