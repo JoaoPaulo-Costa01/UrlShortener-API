@@ -6,20 +6,20 @@ A aplicação permite gerar URLs curtas a partir de links originais, redireciona
 
 ## 🚀 Tecnologias Utilizadas
 ![C#](https://img.shields.io/badge/C%23-12-purple.svg)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-8.0-orange.svg)
+![ASP.NET](https://img.shields.io/badge/ASP.NET%20-8.0-orange.svg)
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet.svg)
 ![Docker](https://img.shields.io/badge/Docker-blue.svg)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-red.svg)
-![Entity Framework](https://img.shields.io/badge/Entity%20Framework-Core-orange.svg)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework-green.svg)
 
-* **[C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)**: Linguagem de programação moderna e fortemente tipada utilizada no projeto.
-* **[.NET](https://dotnet.microsoft.com/pt-br/)**: Plataforma de desenvolvimento (Runtime) que oferece alta performance e suporte cross-platform.
-* **[ASP.NET](https://dotnet.microsoft.com/pt-br/apps/aspnet)**: Framework Web utilizado especificamente para construir a API RESTful e gerenciar as requisições HTTP.
-* **[Docker & Docker Compose](https://www.docker.com/)**: Para containerização da API e do Banco de Dados, garantindo portabilidade.
-* **[SQL Server](https://www.microsoft.com/pt-br/sql-server)**: Banco de dados relacional (rodando em container Linux).
-* **[Entity Framework Core](https://learn.microsoft.com/pt-br/ef/)**: ORM utilizado para facilitar a manipulação de dados.
-* **[Nanoid](https://github.com/codeyu/nanoid-net)**: Biblioteca para geração de identificadores únicos, curtos e seguros para as URLs.
-* **[Swagger (OpenAPI)](https://swagger.io/)**: Documentação interativa e testes dos endpoints.
+* **C# 12**: Linguagem de programação moderna e fortemente tipada utilizada no projeto.
+* **.NET 8**: Plataforma de desenvolvimento (Runtime) que oferece alta performance e suporte cross-platform.
+* **ASP.NET**: Framework Web utilizado especificamente para construir a API RESTful e gerenciar as requisições HTTP.
+* **Docker & Docker Compose**: Para containerização da API e do Banco de Dados, garantindo portabilidade.
+* **SQL Server**: Banco de dados relacional (rodando em container Linux).
+* **Entity Framework Core**: ORM utilizado para facilitar a manipulação de dados.
+* **Nanoid**: Biblioteca para geração de identificadores únicos, curtos e seguros para as URLs.
+* **Swagger (OpenAPI)**: Documentação interativa e testes dos endpoints.
 
 ## ✨ Funcionalidades (Endpoints da API)
 
