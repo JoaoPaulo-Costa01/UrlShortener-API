@@ -1,12 +1,12 @@
 # 🔗 Encurtador de URL (URL Shortener API)
 
-Este projeto é uma API RESTful para encurtamento de URLs, criada com o objetivo de dominar o uso de **Docker** e **Docker Compose** para gerenciar múltiplos containers (API e Banco) de forma integrada.
+Este projeto é uma API para encurtamento de URLs, criada com o objetivo de dominar o uso de **Docker** e **Docker Compose** para gerenciar múltiplos containers (API e Banco) de forma integrada.
 
 A aplicação permite gerar URLs curtas a partir de links originais, redirecionar usuários e listar todos os endereços cadastrados. Diferente de projetos tradicionais, este ambiente foi totalmente configurado para rodar via **Docker Compose**, eliminando a necessidade de instalar dependências locais como o SQL Server.
 
 ## 🚀 Tecnologias Utilizadas
 ![C#](https://img.shields.io/badge/C%23-12-purple.svg)
-![ASP.NET](https://img.shields.io/badge/ASP.NET%20-8.0-orange.svg)
+![ASP.NET](https://img.shields.io/badge/ASP.NET%20Core%20-8.0-orange.svg)
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet.svg)
 ![Docker](https://img.shields.io/badge/Docker-blue.svg)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-red.svg)
@@ -14,7 +14,7 @@ A aplicação permite gerar URLs curtas a partir de links originais, redireciona
 
 * **C# 12**: Linguagem de programação moderna e fortemente tipada utilizada no projeto.
 * **.NET 8**: Plataforma de desenvolvimento (Runtime) que oferece alta performance e suporte cross-platform.
-* **ASP.NET**: Framework Web utilizado especificamente para construir a API RESTful e gerenciar as requisições HTTP.
+* **ASP.NET Core**: Framework Web utilizado especificamente para construir a API RESTful e gerenciar as requisições HTTP.
 * **Docker & Docker Compose**: Para containerização da API e do Banco de Dados, garantindo portabilidade.
 * **SQL Server**: Banco de dados relacional (rodando em container Linux).
 * **Entity Framework Core**: ORM utilizado para facilitar a manipulação de dados.
