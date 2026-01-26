@@ -55,18 +55,19 @@ docker-compose up
 ```
 A API estará disponível em: http://localhost:5000/swagger
 
-### Opção 2: Rodar direto do Docker Hub (Sem código fonte)
-Se quiser apenas testar a aplicação sem baixar o repositório, use minha imagem pública:
+### Opção 2: Rodar apenas a API (Modo Visualização)
+Se quiser apenas ver a interface (Swagger) sem baixar o código, use minha imagem pública.
+
+Obs: Como este comando não sobe o banco de dados SQL Server junto, os endpoints retornarão erro de conexão. Para testar as funcionalidades, use a Opção 1.
 
 ``` bash
 docker run -p 5000:8080 -e ASPNETCORE_ENVIRONMENT=Development joaocosta19902/urlshortener-api:latest
 ```
 
 ### ⚙️ Desenvolvimento Local (Opcional)
-Caso queira rodar pelo Visual Studio (F5) sem Docker:
+Caso queira rodar pelo Visual Studio sem Docker:
 
-* **Configure o Banco:** Verifique se o appsettings.json aponta para localhost.
-
+* **Configuração:** Ajuste a Connection String no arquivo appsettings.json para apontar para o seu banco local (localhost).
 * **Migrations:** Abra o terminal, navegue até a pasta do projeto (cd UrlShortener\UrlShortener) e rode o comando:
 ``` bash
 dotnet ef database update
